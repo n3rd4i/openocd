@@ -22,9 +22,39 @@
     <docsUrl>http://openocd.org/documentation/</docsUrl>
     <mailingListUrl>http://openocd.org/discussion/mailing-lists</mailingListUrl>
     <bugTrackerUrl>http://openocd.org/bug-tracker/</bugTrackerUrl>
-    <tags>openocd SPACE_SEPARATED</tags>
+    <tags>openocd debug arm cortex mips</tags>
     <summary>OpenOCD is an open-source tool that allows debugging various ARM devices with GDB using a wide variety of JTAG programmers.</summary>
-    <description>__REPLACE__MarkDown_Okay </description>
+    <description>
+
+# Welcome to OpenOCD!
+
+OpenOCD provides on-chip programming and debugging support with a
+layered architecture of JTAG interface and TAP support including:
+
+- (X)SVF playback to facilitate automated boundary scan and FPGA/CPLD
+  programming;
+- debug target support (e.g. ARM, MIPS): single-stepping,
+  breakpoints/watchpoints, gprof profiling, etc;
+- flash chip drivers (e.g. CFI, NAND, internal flash);
+- embedded TCL interpreter for easy scripting.
+
+Several network interfaces are available for interacting with OpenOCD:
+telnet, TCL, and GDB. The GDB server enables OpenOCD to function as a
+"remote target" for source-level debugging of embedded systems using
+the GNU GDB program (and the others who talk GDB protocol, e.g. IDA
+Pro).
+
+This README file contains an overview of the following topics:
+
+- quickstart instructions,
+- how to find and build more OpenOCD documentation,
+- list of the supported hardware,
+- the installation and build process,
+- packaging tips.
+
+More details [here](https://sourceforge.net/p/openocd/code/ci/master/tree/README)
+
+    </description>
     <releaseNotes>https://sourceforge.net/p/openocd/code/ci/master/tree/NEWS-0.10.0</releaseNotes>
     <!-- =============================== -->
 
