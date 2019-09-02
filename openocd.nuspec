@@ -4,7 +4,7 @@
   <metadata>
     <!-- == PACKAGE SPECIFIC SECTION == -->
     <id>openocd</id>
-    <version>0.10.0.20190715</version>
+    <version>0.10.0.20190828</version>
     <packageSourceUrl>https://github.com/n3rd4i/openocd.git</packageSourceUrl>
     <owners>n3rd4i</owners>
     <!-- ============================== -->
