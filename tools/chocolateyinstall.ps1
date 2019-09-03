@@ -1,5 +1,7 @@
 ﻿$ErrorActionPreference = 'Stop';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
+. "$(Join-Path $toolsDir commonEnv.ps1)"
+
 $url        = 'http://sysprogs.com/getfile/587/openocd-20190828.7z'
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
@@ -11,4 +13,4 @@ $packageArgs = @{
 }
 Install-ChocolateyZipPackage @packageArgs
 
-Install-ChocolateyPath "$toolsDir\OpenOCD-20190828-0.10.0\bin" -PathType 'Machine'
+Install-ChocolateyPath "$OPENOCD_BIN_PATH" -PathType 'Machine'
