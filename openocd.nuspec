@@ -10,7 +10,7 @@
     <!-- ============================== -->
 
     <!-- == SOFTWARE SPECIFIC SECTION == -->
-    <title>openocd (Install)</title>
+    <title>OpenOCD</title>
     <authors>Dominic Rath</authors>
     <projectUrl>http://gnutoolchains.com/arm-eabi/openocd/</projectUrl>
     <iconUrl>https://metalcode-eu.gallerycdn.vsassets.io/extensions/metalcode-eu/linux-arm-none-eabi/0.1.2/1540394977939/Microsoft.VisualStudio.Services.Icons.Default</iconUrl>
