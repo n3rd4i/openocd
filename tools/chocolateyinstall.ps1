@@ -2,13 +2,13 @@
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 . "$(Join-Path $toolsDir commonEnv.ps1)"
 
-$url        = 'http://sysprogs.com/getfile/587/openocd-20190828.7z'
+$url        = 'http://sysprogs.com/getfile/1748/openocd-20211118.7z'
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   unzipLocation = $toolsDir
   url           = $url
   softwareName  = 'openocd*'
-  checksum      = 'B2B155B34B336805AF835729D0CBA9A3997A33F61D2FA12BE573C8A3B783363C'
+  checksum      = 'FE35FE59142E9AC209E3CD4C3CBDB0E8AD4350A121FA7E669D53AF379AF3570E'
   checksumType  = 'sha256'
 }
 Install-ChocolateyZipPackage @packageArgs
