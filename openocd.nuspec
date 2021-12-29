@@ -19,9 +19,9 @@
     <licenseUrl>https://sourceforge.net/p/openocd/code/ci/master/tree/COPYING</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <projectSourceUrl>https://sourceforge.net/p/openocd/code/ci/master/tree/</projectSourceUrl>
-    <docsUrl>http://openocd.org/documentation/</docsUrl>
-    <mailingListUrl>http://openocd.org/discussion/mailing-lists</mailingListUrl>
-    <bugTrackerUrl>http://openocd.org/bug-tracker/</bugTrackerUrl>
+    <docsUrl>https://openocd.org/pages/documentation.html</docsUrl>
+    <mailingListUrl>https://openocd.org/pages/mailing-lists.html</mailingListUrl>
+    <bugTrackerUrl>https://openocd.org/pages/bug-tracker.html</bugTrackerUrl>
     <tags>openocd debug arm cortex mips</tags>
     <summary>OpenOCD is an open-source tool that allows debugging various ARM devices with GDB using a wide variety of JTAG programmers.</summary>
     <description>
